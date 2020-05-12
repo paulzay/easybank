@@ -1,9 +1,13 @@
+ 
+@import url("https://fonts.googleapis.com/css?family=Public+Sans:300,400,500,600&display=swap");
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 *{
   text-decoration: none;
 }
-
+body{
+  font-family: 'Public Sans', sans-serif;
+}
 .navbar{
   display: flex;
   flex-direction: row;
@@ -23,18 +27,19 @@
 
 .nav-end button{
   color: #fff;
-  background-color: limegreen;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   height: 40px;
-  width: 140px;
+  width: 160px;
   border-radius: 40px;
   font-size: 16px;
+  border: none;
+  font-weight: 400;
 }
 
 .hero{
-  background: url(../images/bg-intro-desktop.svg) 0% 100% cover no-repeat;
+  background: url(../images/bg-intro-desktop.svg)cover no-repeat;
   background-size: cover;
-  width: 100%;
-  height: calc(100vw - 80px);
+  height: calc(100vh - 70px);
 }
 
 /*
@@ -43,4 +48,66 @@ float: left;
 }
 .navlinks ul{
   text-align: center
+}
+*/
+/*sidebar styling*/
+
+.sidebar{
+  margin: auto 12%;
+}
+.choose{
+  display: flex;
+  flex-direction: column;
+}
+.choose h2{
+  font-size: 40px;
+}
+.choose p{
+  margin-top: 30px;
+  color: lightgray;
+  line-height: 2em;
+  font-size: 20px;
+}
+.side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.api{
+  margin-right: 20px;
+  padding-bottom: 80px;
+}
+.api h2{
+  margin-top: 3em;
+  font-size: 26px;
+}
+
+.api p{
+  margin-top: 2em;
+  color: lightgray;
+}
+.articles{
+  margin: auto 12% ;
+  background-color: rgb(148, 138, 138);
+  padding-top: 100px;
+}
+.title h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.stories img{
+  width: 230px;
+  height: 200px;
+}
+.story {
+  padding-right: 20px;
+}
+.story .writing{
+  background-color: #fff;
 }
