@@ -5,20 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="/css/reset.css" />
   <title>Frontend Mentor | Easybank landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 <header>
-  <nav>
-    <div><img src="./images/logo.svg"/></div>
-    <div>
+  <nav class="navbar">
+    <div class="logo"><img src="./images/logo.svg"/></div>
+    <div class="navlinks">
       <ul>
         <li><a href="#" alt="">Home</a></li>
         <li><a href="#" alt="">About</a></li>
@@ -27,10 +22,10 @@
         <li><a href="#" alt="">Careers</a></li>
       </ul>
     </div>
-    <div><a href="#">Request Invite</a></div>
+    <div class="nav-end"><button>Request Invite</button></div>
   </nav>
 </header>
-<section>
+<section class="hero">
   <div>
     <h1>Next generation digital banking</h1>
     <p>  Take your financial life online. Your Easybank account will be a one-stop-shop 
