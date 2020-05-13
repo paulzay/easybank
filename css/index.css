@@ -27,13 +27,15 @@ body{
 
 .nav-end button{
   color: #fff;
-  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
-  height: 40px;
-  width: 160px;
-  border-radius: 40px;
-  font-size: 16px;
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.89rem;
+  font-weight: 600;
+  padding: 14px 33px;
+  text-decoration: none;
   border: none;
-  font-weight: 400;
 }
 
 .hero{
@@ -61,10 +63,11 @@ float: left;
 }
 .choose h2{
   font-size: 40px;
+  color: #2d314d;
 }
 .choose p{
   margin-top: 30px;
-  color: lightgray;
+  color: #9698a6;
   line-height: 2em;
   font-size: 20px;
 }
@@ -81,20 +84,22 @@ float: left;
 .api h2{
   margin-top: 3em;
   font-size: 26px;
+  color: #2d314d;
 }
 
 .api p{
   margin-top: 2em;
-  color: lightgray;
+  color: #9698a6;
+  line-height: 1.6em;
 }
 .articles{
   margin: auto 12% ;
-  background-color: rgb(148, 138, 138);
   padding-top: 100px;
 }
 .title h2{
     font-size: 40px;
     margin-bottom: 60px;
+    color: #2d314d;
 }
 .stories {
   display: flex;
@@ -107,6 +112,28 @@ float: left;
 }
 .story {
   padding-right: 20px;
+}
+.writing h2{
+  margin-top: 25px;
+  font-size: 12px;
+  color: #9698a6;
+  padding: 0 10px 0 10px;
+}
+.writing h3{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #2d314d;
+  padding: 0 10px 0 10px;
+}
+.writing h3:hover{
+  color: #31d35c;
+}
+.writing p{
+  color: #9698a6;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 0 10px 0 10px;
+  line-height: 1.2em;
 }
 .story .writing{
   background-color: #fff;
