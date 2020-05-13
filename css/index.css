@@ -14,6 +14,7 @@ body{
   justify-content: space-between;
   align-items: center;
   margin: 10px 12% 0 12%;
+  position: sticky;
 }
 .navlinks ul li {
   display: inline-flex;
@@ -57,6 +58,10 @@ float: left;
 .sidebar{
   margin: auto 12%;
 }
+.sides{
+  background: #f3f4f6;
+  padding-top: 110px;
+}
 .choose{
   display: flex;
   flex-direction: column;
@@ -92,9 +97,15 @@ float: left;
   color: #9698a6;
   line-height: 1.6em;
 }
+.arts{
+  background: #fafafa;
+  height: 110vh;
+
+}
 .articles{
   margin: auto 12% ;
   padding-top: 100px;
+  padding-bottom: 60px;
 }
 .title h2{
     font-size: 40px;
@@ -137,4 +148,57 @@ float: left;
 }
 .story .writing{
   background-color: #fff;
+}
+
+/* Footer */
+footer{
+  background: #2d314d;
+  color: #fff;
+
+}
+.foot{
+  margin: auto 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.foot a{
+  color: white;
+}
+
+.last-item {
+text-align: right;
+line-height: 1.6em;
+}
+.last-item h2{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.last-item button{
+  color: #fff;
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.89rem;
+  font-weight: 600;
+  padding: 14px 33px;
+  text-decoration: none;
+  border: none;
+}
+
+.links{
+  line-height: 1.6em;
+}
+
+.item1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.media ul{
+  display: flex;
+  justify-content: space-between;
 }
