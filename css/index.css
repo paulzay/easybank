@@ -40,27 +40,57 @@ body{
 }
 
 .hero{
-  background: url(../images/bg-intro-desktop.svg)cover no-repeat;
-  background-size: cover;
-  height: calc(100vh - 70px);
+  background: url(../images/bg-intro-desktop.svg) no-repeat;
+  background-color: #fafafa;
+  margin-top: 20px;
+  width: 100%;
+  padding-bottom: 34px;
+  background-size: contain;
+  background-position: right;
 }
-
-/*
-.navbar .logo{
-float: left;
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%; 
+  padding-bottom: 7%;
+  padding-left: 12%;
 }
-.navlinks ul{
-  text-align: center
+.hero h1{
+  font-size: 60px;
+  color: #2d314d;
+  
 }
-*/
-/*sidebar styling*/
-
+.hero-text p{
+  color: #9698a6;
+  line-height: 1.6em;
+  font-size: 20px;
+}
+.hero img{
+  float: right;
+  width: 35%;
+  height: 35%;
+}
+.hero-text button{
+  color: #fff;
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.89rem;
+  font-weight: 600;
+  padding: 14px 33px;
+  text-decoration: none;
+  width: 180px;
+  border: none;
+  margin-top: 10px;
+}
 .sidebar{
   margin: auto 12%;
+  padding-top: 6%;
 }
 .sides{
   background: #f3f4f6;
-  padding-top: 110px;
+  
 }
 .choose{
   display: flex;
@@ -123,6 +153,8 @@ float: left;
 }
 .story {
   padding-right: 20px;
+  background-color: white;
+  width: 210px;
 }
 .writing h2{
   margin-top: 25px;
